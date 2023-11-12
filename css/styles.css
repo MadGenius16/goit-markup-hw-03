@@ -1,7 +1,14 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     color: #434455;
     background: #FFF;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 a {
@@ -10,6 +17,46 @@ a {
 
 ul {
     list-style-type: none
+ }
+
+ h1,
+ h2,
+ h3,
+ p {
+     margin-top: 0;
+     margin-bottom: 0;
+ }
+
+ ul {
+     margin-top: 0;
+     margin-bottom: 0;
+     padding-left: 0;
+ }
+
+ img {
+     display: block;
+     max-width: 100%;
+     object-fit: cover;
+ }
+
+ .page-header {
+     padding-top: 24px;
+     padding-bottom: 24px;
+     width: 1440px;
+     height: 72px;
+     flex-shrink: 0;
+     border-bottom: 1px solid ;
+
+ }
+
+ .container {
+    display: flex;
+     max-width: 1158px;
+     margin: 0 auto;
+     padding: 0 15px;
+ }
+ .page-header .container {
+     display: flex;
  }
 
  .logo {
@@ -21,30 +68,49 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
  }
 
   .logo-studio {
 color: #2E2F42;
  }
 
+ .page-nav {
+     display: flex;
+     gap: 40px;
+    margin-right: auto;
+ }
+
  .page-nav .link {
+    display: block;
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-transform: uppercase;
+    padding: 24px, 0;
+
  }
 
  .page-nav .link:hover,
  .page-nav .link:focus {
     color: #404BBF
-
  }
-.page-address-title {
+
+ .page-address-title {
+     font-style: normal;
+ }
+
+.page-address {
     font-style: normal;
+    display: flex;
+    gap: 40px;
+   
 }
 
  .page-address .address-link {
+    display: block;
     color: #434455;
     font-size: 16px;
     font-weight: 400;
@@ -59,6 +125,9 @@ color: #2E2F42;
 
  .section-page-title {
     background: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
  }
 
 .page-title {
@@ -162,36 +231,6 @@ color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-h1,
-h2,
-h3,
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    object-fit: cover;
-}
-
-.page-nav {
-    display:flex;
-}
-
-
-
-
-
-
 
 
 
