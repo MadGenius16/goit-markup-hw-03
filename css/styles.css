@@ -92,6 +92,7 @@ color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-transform: uppercase;
+    padding: 24px 0;
     
 
  }
@@ -242,6 +243,7 @@ color: #2E2F42;
 .page-footer {
     background: #2E2F42;
     padding: 100px 0;
+    
 }
 .page-footer .logo-footer {
     font-family: "Raleway",
@@ -252,6 +254,8 @@ color: #2E2F42;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
+    margin-bottom: 16px;
 }
 .page-footer .logo-studio {
     color: #F4F4FD;
