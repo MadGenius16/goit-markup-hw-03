@@ -45,20 +45,22 @@ ul {
      width: 1440px;
      height: 72px;
      flex-shrink: 0;
-     border-bottom: 1px solid ;
+     border-bottom: 1px solid #e7e9fc;
 
  }
 
- .container {
+ .page-header .container {
     display: flex;
      max-width: 1158px;
      margin: 0 auto;
      padding: 0 15px;
  }
- .page-header .container {
-     display: flex;
- }
 
+ .nav-title {
+    display: flex ;
+    align-items: center;
+ }
+ 
  .logo {
     font-family: "Raleway",
         sans-serif;
@@ -79,6 +81,7 @@ color: #2E2F42;
      display: flex;
      gap: 40px;
     margin-right: auto;
+    
  }
 
  .page-nav .link {
@@ -89,7 +92,7 @@ color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    padding: 24px, 0;
+    
 
  }
 
@@ -128,6 +131,7 @@ color: #2E2F42;
     width: 1440px;
     height: 600px;
     flex-shrink: 0;
+    padding: 188px, 0;
  }
 
 .page-title {
@@ -137,6 +141,7 @@ color: #2E2F42;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 
 .title-button {
@@ -148,12 +153,20 @@ color: #2E2F42;
     letter-spacing: 0.04em;
     cursor: pointer;
     background-color: #4D5AE5;
+    width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     }
 
 .title-button:hover,
 .title-button:focus {
      background-color: #404BBF;
     }
+
+.section-advantages {
+    padding: 120px 0;
+}
 
 .section-title {
     color: #2E2F42;
@@ -164,12 +177,29 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .section-title-advantages .title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 8px;
 }
 .section-title-advantages .text {
     color: #434455;
@@ -177,7 +207,14 @@ color: #2E2F42;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
 }
+
+.section-advantages-item {
+    flex-basis: calc((100% - 72px) / 4
+}
+
+
 
 .section-team-title {
     background-color: #F4F4FD;
@@ -204,6 +241,7 @@ color: #2E2F42;
 
 .page-footer {
     background: #2E2F42;
+    padding: 100px 0;
 }
 .page-footer .logo-footer {
     font-family: "Raleway",
