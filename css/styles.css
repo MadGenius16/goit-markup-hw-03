@@ -187,7 +187,7 @@ color: #2E2F42;
     margin-bottom: 8px;
 }
 
-.visually-hidden {
+.section-advantages .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
