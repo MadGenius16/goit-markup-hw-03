@@ -47,9 +47,9 @@ ul {
 
  .page-header .container {
     display: flex;
-     max-width: 1158px;
-     margin: 0 auto;
-     padding: 0 15px;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
  }
 
  .nav-title {
@@ -125,10 +125,16 @@ color: #2E2F42;
 
  .section-page-title {
     background: #2E2F42;
-    
     flex-shrink: 0;
     padding: 188px 0;
- }
+     }
+
+ .section-page-title .container {
+    display: flex;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+         }
 
 .page-title {
     color: #FFF;
@@ -169,6 +175,13 @@ color: #2E2F42;
 
 .section-advantages {
     padding: 120px 0;
+}
+
+.section-advantages .container {
+    display: flex;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .section-advantages .section-title {
@@ -227,8 +240,15 @@ gap: 24px;
     padding: 120px 0;
 }
 
+.section-team-title .container {
+    display: flex;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .section-team-title .section-title {
-    margin-bottom: 72px;
+    margin: 0 auto 72px auto;
     text-align: center;
     color: #2E2F42;
     font-size: 36px;
@@ -237,7 +257,7 @@ gap: 24px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     }
-}
+
 
 .section-team-title .section-our-team {
     display: flex;
@@ -268,8 +288,24 @@ padding: 32px 0;
     padding: 120px 0;
 }
 
+.section-portfolio-title .container {
+    display: flex;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .section-portfolio-title .section-title {
     margin-bottom: 72px;
+    text-align: center;
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+
 }
 .section-portfolio-title .section-our-portfolio {
     display: flex;
@@ -294,7 +330,6 @@ margin-bottom: 8px;
 
 .section-title-item .title {
     color: #2E2F42;
-    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -302,7 +337,6 @@ margin-bottom: 8px;
 }
 .section-title-item .text {
     color: #434455;
-    text-align: center;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -312,8 +346,15 @@ margin-bottom: 8px;
 .page-footer {
     background: #2E2F42;
     padding: 100px 0;
-    
-}
+    }
+
+.page-footer.container {
+    display: flex;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+        }
+
 .page-footer .logo-footer {
     font-family: "Raleway",
         sans-serif;
@@ -334,7 +375,7 @@ margin-bottom: 8px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    
     display: inline-block;
 }
 .page-footer .footer-text {
@@ -343,6 +384,7 @@ margin-bottom: 8px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px
 }
 
 
