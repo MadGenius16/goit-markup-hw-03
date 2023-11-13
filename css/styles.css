@@ -40,11 +40,7 @@ ul {
  }
 
  .page-header {
-     padding-top: 24px;
-     padding-bottom: 24px;
-     width: 1440px;
-     height: 72px;
-     flex-shrink: 0;
+    flex-shrink: 0;
      border-bottom: 1px solid #e7e9fc;
 
  }
@@ -59,6 +55,7 @@ ul {
  .nav-title {
     display: flex ;
     align-items: center;
+    margin-right: auto;
  }
  
  .logo {
@@ -69,7 +66,6 @@ ul {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     margin-right: 76px;
  }
 
@@ -91,7 +87,6 @@ color: #2E2F42;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-transform: uppercase;
     padding: 24px 0;
     
 
@@ -130,8 +125,7 @@ color: #2E2F42;
 
  .section-page-title {
     background: #2E2F42;
-    width: 1440px;
-    height: 600px;
+    
     flex-shrink: 0;
     padding: 188px 0;
  }
@@ -146,6 +140,7 @@ color: #2E2F42;
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 48px;
     
 }
 
@@ -235,6 +230,13 @@ gap: 24px;
 .section-team-title .section-title {
     margin-bottom: 72px;
     text-align: center;
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    }
 }
 
 .section-team-title .section-our-team {
